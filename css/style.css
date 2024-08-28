@@ -269,6 +269,24 @@ footer.footer2{
 .bg-5 {background-image: url('../images/moveit.PNG');}
 .bg-6 {background-image: url('../images/imc.PNG');}
 
+.projeto-1 {background-image: url('../images/projeto-1.png');}
+.projeto-2 {background-image: url('../images/projeto-2.png');}
+.projeto-3 {background-image: url('../images/projeto-3.png');}
+.projeto-4 {background-image: url('../images/projeto-4.png');}
+.projeto-5 {background-image: url('../images/projeto-5.png');}
+.projeto-6 {background-image: url('../images/projeto-6.png');}
+.projeto-7 {background-image: url('../images/projeto-7.png');}
+.projeto-8 {background-image: url('../images/projeto-8.png');}
+.projeto-9 {background-image: url('../images/projeto-9.png');}
+.projeto-10 {background-image: url('../images/projeto-10.png');}
+
+.bg-7 {background-image: url('../images/driver.png');}
+.bg-8 {background-image: url('../images/dtmoney.png');}
+.bg-9 {background-image: url('../images/ignews.png');}
+.bg-10 {background-image: url('../images/podcast.png');}
+.bg-11 {background-image: url('../images/proffy.png');}
+.bg-12 {background-image: url('../images/seguranca.png');}
+
 .child a {
 	display: none;
 	font-size: 35px;
@@ -286,6 +304,23 @@ footer.footer2{
 	/*text-decoration: none;*/
 }
 
+.child p {
+	display: none;
+	font-size: 35px;
+	color: #ffffff !important;
+	font-family: sans-serif;
+	text-align: center;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 50px;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
 .parent:hover .child, .parent:focus .child {
 	-ms-transform: scale(1.2);
 	-moz-transform: scale(1.2);
@@ -299,6 +334,10 @@ footer.footer2{
 }
 
 .parent:hover a, .parent:focus a {
+	display: block;
+}
+
+.parent:hover p, .parent:focus p {
 	display: block;
 }
 
